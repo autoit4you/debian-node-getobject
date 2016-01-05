@@ -1,0 +1,27 @@
+Source: node-getobject
+Priority: optional
+Maintainer: Jonathan Ulrich Horn <debian@autoit4you.de>
+Build-Depends: debhelper (>= 9), nodejs
+Standards-Version: 3.9.6
+Section: web
+Homepage: https://github.com/cowboy/node-getobject
+Testsuite: autopkgtest
+
+Package: node-getobject
+Architecture: all
+Depends: nodejs, ${misc:Depends}
+Description: set and get deep objects easily - module for Node.js
+ getobject allows you to easily get and set deep objects.
+ It also allows you to check if deep objects exist.
+ .
+ Node.js is an event-based server-side JavaScript engine.
+
+Package: libjs-getobject
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: javascript-common
+Description: set and get deep objects easily - library for browsers
+ getobject allows you to easily get and set deep objects.
+ It also allows you to check if deep objects exist.
+ .
+ This package contains the library for browsers.

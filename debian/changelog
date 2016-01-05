@@ -1,0 +1,5 @@
+node-getobject (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #809983)
+
+ -- Jonathan Ulrich Horn <debian@autoit4you.de>  Tue, 05 Jan 2016 03:27:39 +0100

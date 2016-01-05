@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/node-getobject-$1\.tar\.gz/ \
+  https://github.com/cowboy/node-getobject/tags .*/v?(\d\S*)\.tar\.gz
