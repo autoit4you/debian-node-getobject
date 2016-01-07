@@ -6,6 +6,8 @@ Standards-Version: 3.9.6
 Section: web
 Homepage: https://github.com/cowboy/node-getobject
 Testsuite: autopkgtest
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-getobject.git
+Vcs-Git: git://anonoscm.debian.org/pkg-javascript/node-getobject.git
 
 Package: node-getobject
 Architecture: all
