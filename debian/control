@@ -1,6 +1,7 @@
 Source: node-getobject
 Priority: optional
-Maintainer: Jonathan Ulrich Horn <debian@autoit4you.de>
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonathan Ulrich Horn <debian@autoit4you.de>
 Build-Depends: debhelper (>= 9), nodejs
 Standards-Version: 3.9.6
 Section: web
